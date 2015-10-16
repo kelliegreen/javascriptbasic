@@ -75,15 +75,27 @@ hello();
 
 //Create a function called myName that returns your name
 
-  //Code Here
+ function myName() {
+  return("Kellie Green");
+  
+};
+myName();
 
 //Now save the function definition of myName into a new variable called newMyName
 
-  //Code Here
+ var newMyName = function myName() {
+  return("Kellie Green");
+  
+};
+myName();
 
 //Now alert the result of invoking newMyName
 
-
+var newMyName = function myName() {
+  return("Kellie Green");
+  
+};
+alert(newMyName());
 
 //Next problem
 
