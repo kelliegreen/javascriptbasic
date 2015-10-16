@@ -21,7 +21,12 @@ var name = 'Tyler';
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
 
 
-  //Code Here
+ function getName(name) {
+  var yourName = prompt("What is your name?");
+    return(yourName);
+};
+
+getName();
 
 
 //Next Problem
