@@ -21,9 +21,9 @@ var outer = function(){
 
 
 
-var callFriend = function(){
+var callFriend = function() {
   var friend = 'Jake';
-  function callF(number){
+  function callF(number) {
     return 'Calling ' + friend + ' at ' + number;
   }
   return callF;
