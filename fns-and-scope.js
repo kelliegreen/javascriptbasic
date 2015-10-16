@@ -55,7 +55,7 @@ hello();
 
 //What is the difference between arguments and parameters?
 
-  //Answer Here
+ Parameters are the names in the function definition. Arguments are values passed to the function.
 
 
 //Next problem
@@ -65,7 +65,7 @@ hello();
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 
-  //Answer Here
+  falsy values: (undefined, null, NaN, 0, "")  to check if it is false put ! in front of what you are checking.
 
 
 
